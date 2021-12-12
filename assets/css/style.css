@@ -5,15 +5,21 @@
     border: 0;
 }
 
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
 /* Body Style */
 body {
     font: 15px/1.5 Open Sans, Helvitica, san-serif;
     background-color: #f4f4f4;
 }
 
-h1 {
+/* h1 {
     color: #fff;
-}
+} */
 
 /* Header Style */
 .header {
@@ -51,7 +57,7 @@ h1 {
     font-size: .75em;
     padding: 10px 20px;
     text-decoration: none;
-    color: #fff;
+    color: red;
 }
 
 .header .logo span {
@@ -127,3 +133,21 @@ header .logo .highlight, header .menu .current a {
     transform: rotate(45deg);
     top: 0;
 }
+
+/* Media Query for 48em = 768px @ 16 font 
+@media screen (min-width: 48em) {
+    .header li {
+        float: left;
+    }
+    .header li a {
+        padding: 10px 20px;
+    }
+    .header .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+    .header .menu-icon {
+        display: none;
+    }
+}*/
