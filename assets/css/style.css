@@ -1,0 +1,12 @@
+/* Set all defaults to zero */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Body Style */
+body {
+    font: 15px/1.5 Open Sans, Helvitica, san-serif;
+    background-color: #f4f4f4;
+}
